@@ -1,19 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 header {
-    background-color: #333;
+    background-color: black; /* Cambia el color de fondo a un naranja brillante */
+    opacity: 80%;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-}
-
-header :hover{
-    background-color: #555; 
+    border-radius: 10px;
 }
 
 nav ul {
@@ -29,8 +24,7 @@ nav ul li {
 
 nav ul li:hover {
     font-size: 1.2rem; 
-    color: #ea330a; 
-    
+    color: #ff4500; /* Cambia el color al pasar el mouse */
 }
 
 nav ul li a {
@@ -40,7 +34,8 @@ nav ul li a {
 
 section {
     padding: 50px;
-
+    background-color: #f0f8ff; /* Cambia el color de fondo de las secciones a un azul claro */
+    color: #333; /* Cambia el color del texto a un gris oscuro para contraste */
 }
 
 #about img {
@@ -49,28 +44,27 @@ section {
     transition: all 0.3s ease; 
 }
 
-#about img :hover {
-    font-size: 1.2rem; 
-}
-
 .project {
-    border: 1px solid #ddd;
+    border: 1px solid white; /* Cambia el color del borde a un rosa claro */
     padding: 1rem;
     margin: 1rem 0;
+    background-color: black; /* Cambia el color de fondo de cada proyecto a un amarillo claro */
+    opacity: 80%;
+    color: white; /* Cambia el color del texto a un morado oscuro para contraste */
+    border-radius: 10px;
 }
 
-
 form {
-
     display: flex;
     flex-direction: column;
-    width: 100%; /* Hace que el formulario ocupe el 100% del contenedor */
-    max-width: 500px; /* Ajusta este valor según el tamaño deseado */
-    margin: 0 auto; /* Centra el formulario horizontalmente */
-    padding: 2rem; /* Añade un padding interno al formulario */
-    border: 1px solid #ccc; /* Añade un borde para definir el contorno */
-    border-radius: 8px; /* Bordes redondeados */
-    background-color: #f9f9f9; /* Color de fondo */
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ccc;
+    opacity: 80%;
 }
 
 form label {
@@ -96,3 +90,4 @@ form button {
 form button:hover {
     background-color: #555;
 }
+
